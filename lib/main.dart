@@ -71,8 +71,7 @@ class _HomarState extends State<Homar> {
 }
 
 class MovieCard extends StatelessWidget {
-  // final Box<Anime> box;
-
+  
   @override
   Widget build(BuildContext context) {
     final Movie mov = Movie(status.watching); //box.getAt(index);
